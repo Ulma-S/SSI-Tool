@@ -24,5 +24,8 @@ Before you start using this package, you need to set **Spreadsheet ID**, **Sheet
        Last column to import.
      - "Scriptable Object"
        Target scriptable object.
+       You need to set serializable variables in the order of spreadsheet.
 
 3. Create
+
+
