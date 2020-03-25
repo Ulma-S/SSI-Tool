@@ -16,13 +16,13 @@ Before you start using this package, you need to set **Spreadsheet ID**, **Sheet
   
     Fill in the blanks to match.
     
-     - **Row** :
+     - "Row" :
        Target row (in the spreadsheet) to import.
-     - **From** :
+     - "From" :
        First column to import.
-     - **To** :
+     - "To" :
        Last column to import.
-     - **Scriptable Object**
+     - "Scriptable Object"
        Target scriptable object.
 
 3. Create
