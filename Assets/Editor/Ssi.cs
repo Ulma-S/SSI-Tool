@@ -14,7 +14,7 @@ namespace SsiEditor {
 		}
 
 		public override void OnGUI(string searchContext) {
-			EditorGUILayout.PropertyField(m_settings.FindProperty("m_sheetID"));
+			EditorGUILayout.PropertyField(m_settings.FindProperty("m_sheetURL"));
 			EditorGUILayout.PropertyField(m_settings.FindProperty("m_sheetName"));
 			EditorGUILayout.PropertyField(m_settings.FindProperty("m_APIKey"));
 			m_settings.ApplyModifiedProperties();

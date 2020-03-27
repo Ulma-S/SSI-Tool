@@ -5,13 +5,13 @@ using UnityEditor;
 
 namespace SsiEditor{
 	public class SsiSettings : ScriptableObject {
-		[SerializeField] private string m_sheetID;
+		[SerializeField] private string m_sheetURL;
 		[SerializeField] private string m_sheetName;
 		[SerializeField] private string m_APIKey;
 
 		public string SheetId {
-			get => m_sheetID;
-			set => m_sheetID = value;
+			get => m_sheetURL;
+			set => m_sheetURL = value;
 		}
 
 		public string SheetName {
