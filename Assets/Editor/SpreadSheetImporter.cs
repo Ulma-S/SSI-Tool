@@ -78,17 +78,17 @@ namespace SsiEditor {
 			}
 			EditorGUILayout.EndHorizontal();
 			
-			EditorGUILayout.Space();
-			EditorGUILayout.Space();
-			
-			EditorGUILayout.BeginHorizontal();
-			{
-				EditorGUILayout.Space();
-				if (GUILayout.Button("Upload", GUILayout.Width(100), GUILayout.Height(30))) {
-				}
-				EditorGUILayout.Space();
-			}
-			EditorGUILayout.EndHorizontal();
+			// EditorGUILayout.Space();
+			// EditorGUILayout.Space();
+			//
+			// EditorGUILayout.BeginHorizontal();
+			// {
+			// 	EditorGUILayout.Space();
+			// 	if (GUILayout.Button("Upload", GUILayout.Width(100), GUILayout.Height(30))) {
+			// 	}
+			// 	EditorGUILayout.Space();
+			// }
+			// EditorGUILayout.EndHorizontal();
 		}
 
 		private void DownloadJsonData() {
